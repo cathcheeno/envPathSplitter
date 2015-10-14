@@ -13,26 +13,25 @@ To install `envPathSplitter`, run the following command.
 ```
 $ go get github.com/cathcheeno/envPathSplitter
 ```
-
 ## Usage
 This command will list up all envs related to path.
 ```
-$ eps
+$ envPathSplitter
 ```
 
 You can specify the env name like this.
 ```
-$ eps --path PATH
+$ envPathSplitter --path PATH
 ```
 
 Also you can specify the path splitter.
 ```
-$ eps --splitter :
+$ envPathSplitter --splitter :
 ```
 
 For more detail, refer to the help.
 ```
-$ eps --help
+$ envPathSplitter --help
 ```
 
 ## Limitation
